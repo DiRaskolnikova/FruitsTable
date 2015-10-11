@@ -21,6 +21,14 @@
 		846D5DC81BC8A28600EE33A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846D5DAA1BC8A28500EE33A4 /* UIKit.framework */; };
 		846D5DD01BC8A28600EE33A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 846D5DCE1BC8A28600EE33A4 /* InfoPlist.strings */; };
 		846D5DD21BC8A28600EE33A4 /* FruitsTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 846D5DD11BC8A28600EE33A4 /* FruitsTableTests.m */; };
+		846D5DED1BC8E5B600EE33A4 /* Apple.m in Sources */ = {isa = PBXBuildFile; fileRef = 846D5DDD1BC8E5B600EE33A4 /* Apple.m */; };
+		846D5DEE1BC8E5B600EE33A4 /* AppleTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 846D5DDF1BC8E5B600EE33A4 /* AppleTree.m */; };
+		846D5DEF1BC8E5B600EE33A4 /* Basket.m in Sources */ = {isa = PBXBuildFile; fileRef = 846D5DE11BC8E5B600EE33A4 /* Basket.m */; };
+		846D5DF01BC8E5B600EE33A4 /* BasketIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 846D5DE31BC8E5B600EE33A4 /* BasketIterator.m */; };
+		846D5DF11BC8E5B600EE33A4 /* BasketOddIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 846D5DE51BC8E5B600EE33A4 /* BasketOddIterator.m */; };
+		846D5DF21BC8E5B600EE33A4 /* Grape.m in Sources */ = {isa = PBXBuildFile; fileRef = 846D5DE81BC8E5B600EE33A4 /* Grape.m */; };
+		846D5DF31BC8E5B600EE33A4 /* Pomegranate.m in Sources */ = {isa = PBXBuildFile; fileRef = 846D5DEB1BC8E5B600EE33A4 /* Pomegranate.m */; };
+		846D5DF51BCA66E700EE33A4 /* watermelon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 846D5DF41BCA66E600EE33A4 /* watermelon.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,24 @@
 		846D5DCD1BC8A28600EE33A4 /* FruitsTableTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FruitsTableTests-Info.plist"; sourceTree = "<group>"; };
 		846D5DCF1BC8A28600EE33A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		846D5DD11BC8A28600EE33A4 /* FruitsTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FruitsTableTests.m; sourceTree = "<group>"; };
+		846D5DDC1BC8E5B600EE33A4 /* Apple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Apple.h; sourceTree = "<group>"; };
+		846D5DDD1BC8E5B600EE33A4 /* Apple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Apple.m; sourceTree = "<group>"; };
+		846D5DDE1BC8E5B600EE33A4 /* AppleTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleTree.h; sourceTree = "<group>"; };
+		846D5DDF1BC8E5B600EE33A4 /* AppleTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleTree.m; sourceTree = "<group>"; };
+		846D5DE01BC8E5B600EE33A4 /* Basket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Basket.h; sourceTree = "<group>"; };
+		846D5DE11BC8E5B600EE33A4 /* Basket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Basket.m; sourceTree = "<group>"; };
+		846D5DE21BC8E5B600EE33A4 /* BasketIterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasketIterator.h; sourceTree = "<group>"; };
+		846D5DE31BC8E5B600EE33A4 /* BasketIterator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasketIterator.m; sourceTree = "<group>"; };
+		846D5DE41BC8E5B600EE33A4 /* BasketOddIterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasketOddIterator.h; sourceTree = "<group>"; };
+		846D5DE51BC8E5B600EE33A4 /* BasketOddIterator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasketOddIterator.m; sourceTree = "<group>"; };
+		846D5DE61BC8E5B600EE33A4 /* Fruit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fruit.h; sourceTree = "<group>"; };
+		846D5DE71BC8E5B600EE33A4 /* Grape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grape.h; sourceTree = "<group>"; };
+		846D5DE81BC8E5B600EE33A4 /* Grape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Grape.m; sourceTree = "<group>"; };
+		846D5DE91BC8E5B600EE33A4 /* Iterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Iterator.h; sourceTree = "<group>"; };
+		846D5DEA1BC8E5B600EE33A4 /* Pomegranate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pomegranate.h; sourceTree = "<group>"; };
+		846D5DEB1BC8E5B600EE33A4 /* Pomegranate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pomegranate.m; sourceTree = "<group>"; };
+		846D5DEC1BC8E5B600EE33A4 /* Tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
+		846D5DF41BCA66E600EE33A4 /* watermelon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = watermelon.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +108,7 @@
 		846D5D9A1BC8A28500EE33A4 = {
 			isa = PBXGroup;
 			children = (
+				846D5DDB1BC8E4CE00EE33A4 /* AppleModel */,
 				846D5DAC1BC8A28500EE33A4 /* FruitsTable */,
 				846D5DCB1BC8A28600EE33A4 /* FruitsTableTests */,
 				846D5DA51BC8A28500EE33A4 /* Frameworks */,
@@ -112,6 +139,7 @@
 		846D5DAC1BC8A28500EE33A4 /* FruitsTable */ = {
 			isa = PBXGroup;
 			children = (
+				846D5DF41BCA66E600EE33A4 /* watermelon.jpg */,
 				846D5DB51BC8A28500EE33A4 /* AppDelegate.h */,
 				846D5DB61BC8A28500EE33A4 /* AppDelegate.m */,
 				846D5DB81BC8A28500EE33A4 /* Main.storyboard */,
@@ -150,6 +178,30 @@
 				846D5DCE1BC8A28600EE33A4 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		846D5DDB1BC8E4CE00EE33A4 /* AppleModel */ = {
+			isa = PBXGroup;
+			children = (
+				846D5DDC1BC8E5B600EE33A4 /* Apple.h */,
+				846D5DDD1BC8E5B600EE33A4 /* Apple.m */,
+				846D5DDE1BC8E5B600EE33A4 /* AppleTree.h */,
+				846D5DDF1BC8E5B600EE33A4 /* AppleTree.m */,
+				846D5DE01BC8E5B600EE33A4 /* Basket.h */,
+				846D5DE11BC8E5B600EE33A4 /* Basket.m */,
+				846D5DE21BC8E5B600EE33A4 /* BasketIterator.h */,
+				846D5DE31BC8E5B600EE33A4 /* BasketIterator.m */,
+				846D5DE41BC8E5B600EE33A4 /* BasketOddIterator.h */,
+				846D5DE51BC8E5B600EE33A4 /* BasketOddIterator.m */,
+				846D5DE61BC8E5B600EE33A4 /* Fruit.h */,
+				846D5DE71BC8E5B600EE33A4 /* Grape.h */,
+				846D5DE81BC8E5B600EE33A4 /* Grape.m */,
+				846D5DE91BC8E5B600EE33A4 /* Iterator.h */,
+				846D5DEA1BC8E5B600EE33A4 /* Pomegranate.h */,
+				846D5DEB1BC8E5B600EE33A4 /* Pomegranate.m */,
+				846D5DEC1BC8E5B600EE33A4 /* Tree.h */,
+			);
+			name = AppleModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +283,7 @@
 				846D5DBF1BC8A28500EE33A4 /* Images.xcassets in Resources */,
 				846D5DB11BC8A28500EE33A4 /* InfoPlist.strings in Resources */,
 				846D5DBA1BC8A28500EE33A4 /* Main.storyboard in Resources */,
+				846D5DF51BCA66E700EE33A4 /* watermelon.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +302,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846D5DED1BC8E5B600EE33A4 /* Apple.m in Sources */,
+				846D5DF11BC8E5B600EE33A4 /* BasketOddIterator.m in Sources */,
 				846D5DBD1BC8A28500EE33A4 /* ViewController.m in Sources */,
+				846D5DF21BC8E5B600EE33A4 /* Grape.m in Sources */,
+				846D5DF01BC8E5B600EE33A4 /* BasketIterator.m in Sources */,
+				846D5DF31BC8E5B600EE33A4 /* Pomegranate.m in Sources */,
 				846D5DB71BC8A28500EE33A4 /* AppDelegate.m in Sources */,
+				846D5DEE1BC8E5B600EE33A4 /* AppleTree.m in Sources */,
 				846D5DB31BC8A28500EE33A4 /* main.m in Sources */,
+				846D5DEF1BC8E5B600EE33A4 /* Basket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +516,7 @@
 				846D5DD71BC8A28600EE33A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		846D5DD81BC8A28600EE33A4 /* Build configuration list for PBXNativeTarget "FruitsTableTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +525,7 @@
 				846D5DDA1BC8A28600EE33A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

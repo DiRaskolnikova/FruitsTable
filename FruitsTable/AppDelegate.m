@@ -8,10 +8,22 @@
 
 #import "AppDelegate.h"
 
+
 @implementation AppDelegate
+
+@synthesize basket = _basket;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    NSMutableArray *array = [[NSMutableArray alloc] init];
+    Apple *apple = [[Apple alloc] init: @10 : @"antonovka"];
+    Grape *grape = [[Grape alloc] initWithSeed: @7];
+    Pomegranate *pom = [[Pomegranate alloc] initWithSeed: @8];
+    [array addObject:apple];
+    [array addObject:grape];
+    [array addObject:pom];
+    [array addObject:grape];
+    self.basket = [[Basket alloc] initWithArray:array];
     // Override point for customization after application launch.
     return YES;
 }
